@@ -14,5 +14,5 @@ func main() {
 }
 
 func handler(w http.ResponseWriter, router *http.Request) {
-	fmt.Fprintf(w, "Hello Whirrrld EAT IT")
+	fmt.Fprintf(w, "Hello Whirrrld PEAS!")
 }
