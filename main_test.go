@@ -29,6 +29,6 @@ func TestHandler(t *testing.T) {
 	actual := recorder.Body.String()
 
 	if actual != expected {
-		t.Error("handler returned unexpected body: got %v want %v", actual, expected)
+		t.Errorf("handler returned unexpected body: got %v want %v", actual, expected)
 	}
 }
